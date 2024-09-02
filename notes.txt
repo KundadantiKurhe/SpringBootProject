@@ -1,0 +1,47 @@
+Lambda Expression
+
+
+Same as function
+Call it as anonymous block
+	Parameters
+	Body
+	Return Type
+Not tied with classes
+
+
+Why Lambda
+input()
+token ->
+body ()
+
+Advantages
+
+To implement functional interfaces
+how its looks like
+@FunctionalInterface
+public interface iName{
+void test(int a, int b);
+}
+Not tied to any classes
+can be assigned to a variable
+
+
+Functional Interface
+
+A functional interface is an interface that contains only one abstract method
+
+They can have only one functionality to exhibit
+  
+Lambda expressions can be used to represent the instance of a functional interface
+
+Runnable, ActionListener, Comparable are some of the examples of functional interfaces
+Can contain default and static methods
+
+Pillar interfaces in java8
+
+Consumer
+Predicate
+Function
+Supplier
+
+
